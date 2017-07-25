@@ -9,7 +9,7 @@ namespace Demo1
         {
             var privarteKey = "privateKey";
             var publicKey = "publicKey";
-            var a = RsaEncrypt.RasSign("qwerty", privarteKey);
+            var a = RsaEncrypt.RsaSign("qwerty", privarteKey);
             Console.WriteLine("Hello World!");
         }
     }

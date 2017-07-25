@@ -12,7 +12,7 @@ namespace Core.Encrypt.demo
 
             var privarteKey = "privateKey";
             var publicKey = "publicKey";
-            var a = RsaEncrypt.RasSign("qwerty", privarteKey);
+            var a = RsaEncrypt.RsaSign("qwerty", privarteKey);
             var b = RsaEncrypt.VerifySign("qwerty", publicKey,a);
 
 

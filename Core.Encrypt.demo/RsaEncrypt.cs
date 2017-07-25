@@ -14,7 +14,7 @@ namespace Qwerty.Encrypt.Demo
 {
     public static class RsaEncrypt
     {
-        public static string RasSign(string content, string privateKey)
+        public static string RsaSign(string content, string privateKey)
         {
             ISigner signer = SignerUtilities.GetSigner("SHA1withRSA");
             RsaPrivateCrtKeyParameters privateKeyParam =(RsaPrivateCrtKeyParameters)PrivateKeyFactory.CreateKey(Convert.FromBase64String(privateKey));
