@@ -1,5 +1,5 @@
-﻿using Qwerty.Encrypt.Demo;
-using System;
+﻿using System;
+using Core.Encrypt.demo;
 
 namespace Demo1
 {
